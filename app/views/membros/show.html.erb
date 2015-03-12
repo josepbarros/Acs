@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @membro.nome %>
+</p>
+
+<p>
+  <strong>Endereco:</strong>
+  <%= @membro.endereco %>
+</p>
+
+<p>
+  <strong>Sexo:</strong>
+  <%= @membro.sexo %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @membro.email %>
+</p>
+
+<p>
+  <strong>Telefone:</strong>
+  <%= @membro.telefone %>
+</p>
+
+<%= link_to 'Edit', edit_membro_path(@membro) %> |
+<%= link_to 'Back', membros_path %>
